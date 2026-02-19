@@ -2,6 +2,6 @@ field,display_name,btn,hidden,sort_name
 date,Date,,,Date
 composer,Composer,composer,,
 arranger,Arranger,arranger,,
-creator,Creator,,true,
+creator,Creator,btn-hidden,true,Creator
 subject,,true,,
 location,,true,,
