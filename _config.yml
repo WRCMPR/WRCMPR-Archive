@@ -15,7 +15,8 @@
 #baseurl: /collectionbuilder-gh 
 # location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder/collectionbuilder-sheets
-
+metadata: metadata
+data_source: google
 ##########
 # SITE SETTINGS
 #
@@ -67,6 +68,3 @@ exclude: [docs/, Rakefile, README.md, LICENSE]
 # compress CSS output
 sass:
   style: compressed
-
-{% assign items = site.data.metadata | where: "publish", "TRUE" %}
-
