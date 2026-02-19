@@ -9,7 +9,7 @@ composer,Composer,composer,
 arranger,Arranger,arranger,
 source,Source,,
 identifier,Source Identifier,,
-type,Type,,,
+type,Type,,
 format,Format,,
 rights,Rights,,
 rightsstatement,Rights Statement,,true
