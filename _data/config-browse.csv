@@ -3,5 +3,5 @@ date,Date,,,Date
 composer,Composer,composer,,
 arranger,Arranger,arranger,,
 creator,Creator,,true,
-subject,,true,
-location,,true,
+subject,,true,,
+location,,true,,
