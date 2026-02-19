@@ -15,8 +15,7 @@
 #baseurl: /collectionbuilder-gh 
 # location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder/collectionbuilder-sheets
-metadata: metadata
-data_source: google
+
 ##########
 # SITE SETTINGS
 #
