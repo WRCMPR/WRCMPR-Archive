@@ -25,8 +25,23 @@ gallery: true
         </div>
         <div class="col-12 col-md-10">
             <div id="item-metadata">
-            </div>
-        </div> 
+                {% if page.composer %}
+                    <p><strong>Composer:</strong> {{ page.composer }}</p>
+                {% endif %}
+                {% if page.arranger %}
+                    <p><strong>Arranger:</strong> {{ page.arranger }}</p>
+                {% endif %}
+                {% if page.date %}
+                    <p><strong>Date:</strong> {{ page.date }}</p>
+                {% endif %}
+                {% if page.subject %}
+                    <p><strong>Subject:</strong> {{ page.subject }}</p>
+                {% endif %}
+                {% if page.location %}
+                    <p><strong>Location:</strong> {{ page.location }}</p>
+                {% endif %}
+              </div>
+         </div>
     </div>
 
     <div id="browse-buttons" class="text-center">
