@@ -5,8 +5,8 @@ date,Date Created,
 description,Description,
 subject,Subjects,true
 location,Location
-latitude,Latitude
-longitude,Longitude
+composer,Composer,composer,
+arranger,Arranger,arranger,
 source,Source
 identifier,Source Identifier,,
 type,Type,
