@@ -32,49 +32,4 @@ $theme-colors: map-merge(
 
 @import "base", "pages", "custom";
 
-/* Site-wide hero image */
-
-.site-hero {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.site-hero img {
-  width: 100%;
-  height: 350px; /* adjust height here */
-  object-fit: cover;
-  display: block;
-}
-
-.hero-overlay {
-  position: absolute;
-  bottom: 30px;
-  left: 50px;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 12px 20px;
-  border-radius: 4px;
-}
-
-.hero-title {
-  color: white;
-  margin: 0;
-  font-size: 2.2rem;
-  font-weight: 600;
-}
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  .site-hero img {
-    height: 220px;
-  }
-
-  .hero-overlay {
-    left: 20px;
-    bottom: 20px;
-  }
-
-  .hero-title {
-    font-size: 1.5rem;
-  }
 }
