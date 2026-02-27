@@ -1,35 +1,52 @@
 ---
 # base CSS for collectionbuilder
-# includes some theming elements
-# pulled in from "theme.yml" and "config-theme-colors.csv"
+# includes theming elements
 ---
+
 @charset "utf-8";
 
-/* base variables pulled from theme.yml */
-$base-font-family: {{ site.data.theme.base-font-family | default: '""' }};
-$base-font-size: {{ site.data.theme.base-font-size | default: '""' }};
-$text-color: {{ site.data.theme.text-color | default: '""' }};
-$link-color: {{ site.data.theme.link-color | default: '""' }};
+/* ================================
+   Base variables pulled from theme.yml
+   Use bracket notation for hyphenated keys
+================================ */
 
-/* theme colors pulled from config-theme-colors */
-{% assign btns = site.data.config-theme-colors | where_exp: "item","item.color != nil and item.color != ''" %}
+$base-font-family: {{ site.data.theme["base-font-family"] | default: 'sans-serif' }};
+$base-font-size: {{ site.data.theme["base-font-size"] | default: '16px' }};
+$text-color: {{ site.data.theme["text-color"] | default: '#000000' }};
+$link-color: {{ site.data.theme["link-color"] | default: '#007bff' }};
+
+
+/* ================================
+   Theme colors pulled from config-theme-colors.csv
+================================ */
+
+{% assign btns = site.data.config-theme-colors | where_exp: "item", "item.color != nil and item.color != ''" %}
+
 {% if btns != empty %}
+
+/* Generate SCSS variables for each color */
 {% for btn in btns %}
-{% assign color = btn.color | strip %}{% if color != empty %}
-${{ btn.color_class | slugify }}: {{ color }};{% endif %}
+${{ btn.color_class | slugify }}: {{ btn.color }};
 {% endfor %}
+
+/* Merge into Bootstrap theme color map */
 $theme-colors: () !default;
 $theme-colors: map-merge(
   (
-    {% for btn in btns %}{% assign color = btn.color | strip %}{% if color != empty %}
+    {% for btn in btns %}
     "{{ btn.color_class | slugify }}": ${{ btn.color_class | slugify }}{% unless forloop.last %},{% endunless %}
-    {% endif %}{% endfor %}
+    {% endfor %}
   ),
   $theme-colors
 );
+
 @import "theme-colors", "theme-utilities";
+
 {% endif %}
 
+
+/* ================================
+   Core CollectionBuilder styles
+================================ */
+
 @import "base", "pages", "custom";
-
-
