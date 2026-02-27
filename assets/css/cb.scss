@@ -1,13 +1,11 @@
 ---
 # base CSS for collectionbuilder
-# includes theming elements
 ---
 
 @charset "utf-8";
 
 /* ================================
-   Base variables pulled from theme.yml
-   Use bracket notation for hyphenated keys
+   Base variables from theme.yml
 ================================ */
 
 $base-font-family: {{ site.data.theme["base-font-family"] | default: 'sans-serif' }};
@@ -17,14 +15,14 @@ $link-color: {{ site.data.theme["link-color"] | default: '#007bff' }};
 
 
 /* ================================
-   Theme colors pulled from config-theme-colors.csv
+   Theme colors from config-theme-colors.csv
 ================================ */
 
-{% assign btns = site.data.config-theme-colors | where_exp: "item", "item.color != nil and item.color != ''" %}
+{% assign btns = site.data.config-theme-colors | where: "color" %}
 
-{% if btns != empty %}
+{% if btns and btns.size > 0 %}
 
-/* Generate SCSS variables for each color */
+/* Generate SCSS variables */
 {% for btn in btns %}
 ${{ btn.color_class | slugify }}: {{ btn.color }};
 {% endfor %}
