@@ -5,3 +5,4 @@ arranger,Arranger,arranger,,
 creator,Creator,btn-hidden,true,Creator
 subject,,true,,
 location,,true,,
+source,Collection,collection,,Collection
