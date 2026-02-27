@@ -1,0 +1,27 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // --- Highlight the active collection link ---
+  var links = document.querySelectorAll('.list-group-item a');
+  var currentUrl = window.location.href;
+
+  for (var i = 0; i < links.length; i++) {
+    if (links[i].href === currentUrl) {
+      links[i].classList.add('active'); // Bootstrap-friendly active class
+    }
+  }
+
+  // --- Optional: add simple alphabetical sort ---
+  var list = document.querySelector('.list-group');
+  if (list) {
+    var items = Array.prototype.slice.call(list.children, 0);
+    items.sort(function(a, b) {
+      var nameA = a.textContent.trim().toUpperCase();
+      var nameB = b.textContent.trim().toUpperCase();
+      return nameA.localeCompare(nameB);
+    });
+    for (var j = 0; j < items.length; j++) {
+      list.appendChild(items[j]);
+    }
+  }
+});
+</script>
