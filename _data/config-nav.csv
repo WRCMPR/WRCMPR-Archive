@@ -1,11 +1,11 @@
 display_name,stub,dropdown_parent
-Home,/
-Browse,/browse.html
-Collections,/collection.html
-Subjects,/subjects.html
-Map,/map.html
-Timeline,/timeline.html
-Data,/data.html
+Home,,
+Browse,/browse.html,
+Collections,/collection.html,
+Subjects,/subjects.html,
+Map,/map.html,
+Timeline,/timeline.html,
+Data,/data.html,
 About,,
 About the Collection,/about.html,About
 CollectionBuilder,/tech.html,About
