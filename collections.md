@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Collections
-permalink: https://wrcmpr.github.io/WRCMPR-Archive/collections.html
+permalink: /collections/
 ---
 
 <div class="container my-5">
