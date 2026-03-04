@@ -25,33 +25,99 @@ permalink: /collections/
     <a href="{{ '/browse.html?collection=gordon-b-peters' | relative_url }}" class="list-group-item list-group-item-action">
       <strong>Collection 3:</strong> Gordon B. Peters
     </a>
-    <div class="list-group-item"><strong>Collection 4:</strong> Dave Samuels</div>
-    <div class="list-group-item"><strong>Collection 5:</strong> Vida Chenoweth</div>
-    <div class="list-group-item"><strong>Collection 6:</strong> Century Of Progress</div>
-    <div class="list-group-item"><strong>Collection 7:</strong> International Marimba Symphony Orchestra</div>
-    <div class="list-group-item"><strong>Collection 8:</strong> Sammy Herman</div>
-    <div class="list-group-item"><strong>Collection 9:</strong> Harry Breuer</div>
-    <div class="list-group-item"><strong>Collection 10:</strong> Earl Hatch</div>
-    <div class="list-group-item"><strong>Collection 11:</strong> Billy Dorn</div>
-    <div class="list-group-item"><strong>Collection 12:</strong> Teddy Brown</div>
-    <div class="list-group-item"><strong>Collection 13:</strong> Red Norvo</div>
-    <div class="list-group-item"><strong>Collection 14:</strong> Gordon Stout</div>
-    <div class="list-group-item"><strong>Collection 15:</strong> General Historical Research on Mallet Percussion (KU Percussion Library)</div>
-    <div class="list-group-item"><strong>Collection 16:</strong> William L. Cahn</div>
-    <div class="list-group-item"><strong>Collection 17:</strong> Research Collection</div>
-    <div class="list-group-item"><strong>Collection 18:</strong> Vintage Instruments Collection</div>
-    <div class="list-group-item"><strong>Collection 19:</strong> Preusch/Marimba Coeds Collection</div>
-    <div class="list-group-item"><strong>Collection 20:</strong> Betty Lee</div>
-    <div class="list-group-item"><strong>Collection 21:</strong> Marimba Masters</div>
-    <div class="list-group-item"><strong>Collection 22:</strong> Vera McNary</div>
-    <div class="list-group-item"><strong>Collection 23:</strong> (Number Reserved)</div>
-    <div class="list-group-item"><strong>Collection 24:</strong> Sewrey/Morsch Collection</div>
-    <div class="list-group-item"><strong>Collection 25:</strong> WRCMPR Documents</div>
-    <div class="list-group-item"><strong>Collection 26:</strong> Carl Fisher</div>
-    <div class="list-group-item"><strong>Collection 27:</strong> Merchandise</div>
-    <div class="list-group-item"><strong>Collection 28:</strong> David Vela</div>
-    <div class="list-group-item"><strong>Collection 29:</strong> Dick Schory</div>
-    <div class="list-group-item"><strong>Collection 99:</strong> Miscellaneous</div>
+
+    <a href="{{ '/browse.html?collection=dave-samuels' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> David Samuels
+    </a>
+    
+    <a href="{{ '/browse.html?collection=vida-chenowith' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Vida Chenowith
+    </a>
+    
+    <a href="{{ '/browse.html?collection=century-of-progress' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Century of Progress
+    </a>
+    
+    <a href="{{ '/browse.html?collection=international-marimba-symphony-orchestra' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> International Marimba Symphony Orchestra
+    </a>
+    
+    <a href="{{ '/browse.html?collection=sammy-herman' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Sammy Herman
+    </a>
+    
+    <a href="{{ '/browse.html?collection=harry-breuer' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Harry Breuer
+    </a>
+    
+    <a href="{{ '/browse.html?collection=earl-hatch' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Earl Hatch
+    </a>
+    
+    <a href="{{ '/browse.html?collection=billy-dorn' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Billy Dorn
+    </a>
+    
+    <a href="{{ '/browse.html?collection=teddy-brown' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Teddy Brown
+    </a>
+    
+    <a href="{{ '/browse.html?collection=red-norvo' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Red Norvo
+    </a>
+    
+    <a href="{{ '/browse.html?collection=gordon-stout' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Gordon Stout
+    </a>
+    
+    <a href="{{ '/browse.html?collection=general-historical-research-on-mallet-percussion' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> General Historical Research on Mallet Percussion (KU Percussion Library)
+    </a>
+    
+    <a href="{{ '/browse.html?collection=william-cahn' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> William L. Cahn
+    </a>
+    
+    <a href="{{ '/browse.html?collection=research-collection' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Research Collection
+    </a>
+    
+    <a href="{{ '/browse.html?collection=vintage-instruments' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Vintage Instruments
+    </a>
+    
+    <a href="{{ '/browse.html?collection=preusch-marimba-coeds' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Nancy Lee Preusch/Marimba Coeds 
+    </a>
+    
+    <a href="{{ '/browse.html?collection=betty-lee' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Betty Lee
+    </a>
+    
+    <a href="{{ '/browse.html?collection=marimba-masters' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Marimba Masters
+    </a>
+    
+    <a href="{{ '/browse.html?collection=vera-mcnary' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Vera McNary
+    </a>
+    
+    <a href="{{ '/browse.html?collection=sewery-morsch-collection' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Sewery/Morsch Collection
+    </a>
+    
+    <a href="{{ '/browse.html?collection=wrcmpr-documents' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> WRCMPR Documents
+    </a>
+    
+    <a href="{{ '/browse.html?collection=carl-fisher' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Carl Fisher
+    </a>
+    
+    <a href="{{ '/browse.html?collection=david-vela' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> David Vela
+    </a>
+    
 
   </div>
 </div>
