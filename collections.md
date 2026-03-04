@@ -14,9 +14,17 @@ permalink: /collections/
 
   <div class="list-group">
 
-    <div class="list-group-item"><strong>Collection 1:</strong> Clair Omar Musser</div>
-    <div class="list-group-item"><strong>Collection 2:</strong> Green Family</div>
-    <div class="list-group-item"><strong>Collection 3:</strong> Gordon B. Peters</div>
+ <a href="{{ '/browse.html?collection=clair-omar-musser' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 1:</strong> Clair Omar Musser
+    </a>
+
+    <a href="{{ '/browse.html?collection=green-family' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 2:</strong> Green Family
+    </a>
+
+    <a href="{{ '/browse.html?collection=gordon-b-peters' | relative_url }}" class="list-group-item list-group-item-action">
+      <strong>Collection 3:</strong> Gordon B. Peters
+    </a>
     <div class="list-group-item"><strong>Collection 4:</strong> Dave Samuels</div>
     <div class="list-group-item"><strong>Collection 5:</strong> Vida Chenoweth</div>
     <div class="list-group-item"><strong>Collection 6:</strong> Century Of Progress</div>
