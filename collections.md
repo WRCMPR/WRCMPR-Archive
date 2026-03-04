@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Collections
-permalink: /collections/
+
 ---
 
 <div class="container my-5">
