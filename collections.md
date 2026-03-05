@@ -14,19 +14,19 @@ permalink: /collections/
 
   <div class="list-group">
 
- <a href="{{ '/browse.html?collection=clair-omar-musser' | relative_url }}" class="list-group-item list-group-item-action">
+ <a href="{{ '/browse.html?#clair%20omar%20musser%20collection' | relative_url }}" class="list-group-item list-group-item-action">
       <strong>Collection 1:</strong> Clair Omar Musser
     </a>
 
- <a href="{{ '/browse.html?collection=green-family' | relative_url }}" class="list-group-item list-group-item-action">
+ <a href="{{ '/browse.html?#green%20collection' | relative_url }}" class="list-group-item list-group-item-action">
       <strong>Collection 2:</strong> Green Family
     </a>
 
-  <a href="{{ '/browse.html?collection=gordon-b-peters' | relative_url }}" class="list-group-item list-group-item-action">
+  <a href="{{ '/browse.html?#gordon%20peters%20collection' | relative_url }}" class="list-group-item list-group-item-action">
       <strong>Collection 3:</strong> Gordon B. Peters
     </a>
 
-   <a href="{{ '/browse.html?#dave%20samuels' | relative_url }}" class="list-group-item list-group-item-action">
+   <a href="{{ '/browse.html?#david%20samuels%20collection' | relative_url }}" class="list-group-item list-group-item-action">
       <strong>Collection 4:</strong> David Samuels
     </a>
     
