@@ -26,7 +26,7 @@ permalink: /collections/
       <strong>Collection 3:</strong> Gordon B. Peters
     </a>
 
-   <a href="{{ '/browse.html?dave-samuels' | relative_url }}" class="list-group-item list-group-item-action">
+   <a href="{{ '/browse.html?#dave%20samuels' | relative_url }}" class="list-group-item list-group-item-action">
       <strong>Collection 4:</strong> David Samuels
     </a>
     
