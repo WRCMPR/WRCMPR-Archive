@@ -10,20 +10,56 @@ credits: true
 
 {% include feature/jumbotron.html objectid="/assets/img/jj-ying-WmnsGyaFnCQ-unsplash_opt.jpg" %}
 
-## About CollectionBuilder-Sheets
+## About the Collection
 
-This site is generated using [CollectionBuilder-Sheets](https://github.com/CollectionBuilder/collectionbuilder-sheets), a template  for creating simple digital exhibit websites by loading collection metadata directly from a CSV, designed for teaching digital library skills and easy hosting on GitHub Pages.
+The **KU Center for the Study of Material and Visual Cultures of Religion (CMPR)** digital collection highlights objects, images, and archival materials related to the study of religion through material culture.  
+The collection supports teaching, research, and public engagement by making these materials accessible through a digital interface.
 
-Using CB-Sheets, it is possible to use a live Google Sheets spreadsheet for your collection metadata, allowing you to see the outcome of metadata edits update immediately.
-This enables active collaboration to prototype collections with minimal set up.
+Statement of Purpose
+ 
 
-<button class="btn btn-lg btn-success" data-bs-toggle="modal" data-bs-target="#cbSetUpModal">
+The Wells-Rapp Center for Mallet Percussion Research at Kutztown University is dedicated to serving a broad community that encompasses the local region to enthusiasts, artists, and scholars from around the world as a comprehensive resource and leading institution in the preservation, education, presentation, and advancement of the mallet percussion art form.
+
+Vision Statement
+ 
+
+The vision of the Wells-Rapp Center for Mallet Percussion Research is to share the history and evolution of mallet percussion through public access to the collection and performances in its dedicated building on the campus of Kutztown University of Pennsylvania.
+
+ 
+
+The commitment to best-practices and a holistic approach, with mindful consideration of inclusivity and diversity, is principal in our pursuits.
+
+ 
+
+By providing access to rare instruments, music, recordings, films, and related historical ephemera and artifacts, collaborating with and presenting performances and presentations by notable artists, partnering with other arts institutions and museums through targeted outreach programs, curating historically diverse and thorough exhibits, and providing a robust archive, digital and on-site, for scholars and students to explore, CMPR will enrich the cultural history of Berks County and beyond for years to come.
+
+Values Statement
+ 
+
+The Wells-Rapp Center for Mallet Percussion Research is committed to a mindful approach that keeps diversity, equity, and inclusion central while leading the percussion field in the preservation, presentation, and advancement of the mallet percussion art form. The CMPR pledges to educate towards a broader understanding of the history of the art form and set a standard for organizations and individuals to learn from in the future.
+
+Objective Statements
+ 
+
+The CMPR exists for the following purposes:
+
+a)  The CMPR will acquire, curate, catalog, store, maintain, and enable public access at the highest level to an archival collection of rare instruments and related archival materials documenting the history of mallet percussion.
+
+b)  The CMPR will collaborate with researchers, performers, institutions and organizations as well as produce programs and events celebrating the history of mallet percussion instruments.
+
+c)  The CMPR will engage the community with outreach events and diverse educational programming.
+
+d) The CMPR will create engaging exhibits that seek to inform a wide cross-section of the public.
+
+e)  The CMPR will continually work to make available online the majority of its collections and information.
+
+<a class="btn btn-lg btn-success" href="https://kucmpr.org" target="_blank" rel="noopener">
     <svg class="bi icon-sprite" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
         <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
-        <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
-    </svg> 
-    Change the Metadata!
-</button>
+        <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319z"/>
+    </svg>
+    Visit the CMPR Website
+</a>
 {:.text-center}
 
 ## Create your own Metadata
